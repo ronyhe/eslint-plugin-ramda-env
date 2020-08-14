@@ -8,5 +8,6 @@
   "peerDependencies": {
     "ramda": ">=0.6",
     "eslint": ">=0.8.0"
-  }
+  },
+  "homepage": "https://github.com/ronyhe/eslint-plugin-ramda-env"
 }
