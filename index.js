@@ -4,6 +4,8 @@ const flipair = flip(pair)
 
 module.exports = {
     environments: {
-        ramda: fromPairs(map(flipair(false), keys(R)))
+        ramda: {
+            globals: fromPairs(map(flipair(false), keys(R)))
+        }
     }
 }
