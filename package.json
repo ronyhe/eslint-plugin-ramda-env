@@ -1,0 +1,12 @@
+{
+  "name": "eslint-plugin-ramda-env",
+  "version": "1.0.0",
+  "description": "Eslint plugin for working with Ramda in the global scope",
+  "main": "index.js",
+  "author": "ronyhe",
+  "license": "MIT",
+  "peerDependencies": {
+    "ramda": ">=0.6",
+    "eslint": ">=0.8.0"
+  }
+}
